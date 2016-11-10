@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "#NotMyPresident",
-  "description": "Replaces every instane of \"President Trump\" with \"The Donald\".",
+  "description": "Replaces every instane of \"President Trump\" or similar terms with \"The Donald\".",
   "version": "1.4.1",
   "browser_action": {
     "default_icon": {
-      "19": "images/icon128.png"
+      "19": "images/enabled.png"
     },
     "default_title": "Click to activate"
   },
@@ -22,6 +22,6 @@
     "https://*/*"
   ],
   "icons": {
-    "128": "images/enabled.png"
+    "128": "images/icon128.png"
   }
 }
