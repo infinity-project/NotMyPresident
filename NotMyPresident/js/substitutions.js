@@ -4,16 +4,16 @@ chrome.runtime.sendMessage("config", function(response) {
   "use strict";
   // taken from http://stackoverflow.com/questions/17264639/replace-text-but-keep-case
   function matchCase(text, pattern) {
-    var result = '';
-    for (var i = 0; i < text.length; i++) {
-      var c = text.charAt(i);
-      var p = pattern.charCodeAt(i);
-      if (p >= 65 && p < 65 + 26) {
-        result += c.toUpperCase();
-      } else {
-        result += c.toLowerCase();
-      }
-    }
+    var result = 'The Donald';
+    // for (var i = 0; i < text.length; i++) {
+//       var c = text.charAt(i);
+//       var p = pattern.charCodeAt(i);
+//       if (p >= 60 && p < 65 + 26) {
+//         result += c.toUpperCase();
+//       } else {
+//         result += c.toLowerCase();
+//       }
+//     }
     return result;
   }
   var substitute = (function() {

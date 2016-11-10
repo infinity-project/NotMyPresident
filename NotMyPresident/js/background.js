@@ -1,6 +1,9 @@
 //Default replacements
 var default_replacements = [
-  ['President Trump', 'The Donald']
+  ['President Trump', 'The Donald'],
+  ['President-elect Donald Trump', 'The Donald'],
+  ['President Donald Trump', 'The Donald'],
+  ['President-elect Trump', 'The Donald']
 ];
 //Default Blacklist
 var default_blacklisted_sites = [

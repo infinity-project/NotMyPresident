@@ -1,14 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "XKCD substitutions",
-  "description": "Making the web a stranger better place.",
+  "name": "#NotMyPresident",
+  "description": "Replaces every instane of \"President Trump\" with \"The Donald\".",
   "version": "1.4.1",
-  "options_page": "html/config.html",
   "browser_action": {
     "default_icon": {
-      "19": "images/enabled.png"
+      "19": "images/icon128.png"
     },
-    "default_title": "click to disable xkcd substitutions"
+    "default_title": "Click to activate"
   },
   "background": {
     "scripts": [
@@ -23,6 +22,6 @@
     "https://*/*"
   ],
   "icons": {
-    "128": "images/icon128.png"
+    "128": "images/enabled.png"
   }
 }
